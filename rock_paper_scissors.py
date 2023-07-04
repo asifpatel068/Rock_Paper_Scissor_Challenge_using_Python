@@ -1,5 +1,5 @@
 import random
-
+import sys
 # Function to get user's choice
 def get_user_choice():
     while True:
@@ -61,6 +61,6 @@ def play_game():
         update_score(winner, score)
         display_score(score)
         print()
-
+        sys.exit()
 # Start the game
 play_game()
